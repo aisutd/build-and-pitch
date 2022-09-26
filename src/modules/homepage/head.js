@@ -17,7 +17,7 @@ export default function Head() {
         };
     }, []);
     return (
-        <div style={{backgroundImage: `url(${back})`, width: "100%", height: "3000px" }}> 
+        <div style={{backgroundImage: `url(${back})`, width: "100vw", height: "6000px",  }}> 
             <BuildandPitch/>
         </div>
     );

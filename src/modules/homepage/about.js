@@ -56,10 +56,10 @@ export default function About() {
             </Grid>
         </Grid>
         <Grid container wrap="nowrap">
-            <Grid item xs={1.3} ml={5}>
+            <Grid item sx={{display: { xs: 'none', md: 'flex' },}} ml={5}>
                 <img src={person} width="150px"/>
             </Grid>
-            <Grid item xs={5} mt={6}>
+            <Grid item xs={0} md={1.3} mt={6}>
                 <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
                     Who can participate?
                 </Typography>

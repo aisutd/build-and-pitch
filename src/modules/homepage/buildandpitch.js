@@ -6,7 +6,7 @@ import "@fontsource/ibm-plex-mono";
 
 export default function BuildandPitch() {
     return (
-        <Grid container spacing={0} alignItems="center" justifyContent="center">
+        <Grid container wrap="nowrap" spacing={0} alignItems="center" justifyContent="center">
             <Grid item mt="-50px" mb="20px">
                 <img src={neonOrange} width={250}/>
             </Grid>
