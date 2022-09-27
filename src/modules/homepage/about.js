@@ -1,5 +1,4 @@
-import { Box, Divider, Grid, Paper, Typography } from "@mui/material";
-import { width } from "@mui/system";
+import { Box, Divider, Grid, Typography } from "@mui/material";
 import date from "../../images/date.png";
 import location from "../../images/location.png";
 import person from "../../images/Person.svg";
@@ -8,7 +7,7 @@ import lightbulb from "../../images/LightBulb.svg";
 export default function About() {
     return (
         <>
-        <Grid container wrap="nowrap" alignItems="center" justifyContent="flex-start">
+        <Grid container alignItems="center" justifyContent="flex-start">
             <Grid item xs={1}>
                 <Divider variant="middle" sx={{width: "50%", borderBottomWidth: 5, bgcolor: "#FF6000", }}/>
             </Grid>
@@ -19,11 +18,11 @@ export default function About() {
             </Grid>
         </Grid>
         <Box mb={10}/>
-        <Grid container wrap="nowrap" alignItems="center" justifyContent="center">
-            <Grid item xs={3.5}>
+        <Grid container direction="row" alignItems="center" alignContent="center" justifyContent="center">
+            <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} xs={6}>
                 <img src={date} width="300px"/>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} xs={6} >
                 <img src={location} width="300px"/>
             </Grid>
         </Grid>
@@ -40,8 +39,8 @@ export default function About() {
             </Grid>
         </Grid>
         <Divider variant="middle" sx={{bgcolor: "#00B9FF", mt: 10,textAlign: "center", mb:12}}/>
-        <Grid container wrap="nowrap">
-            <Grid item xs={1.3} ml={5}>
+        <Grid container alignItems="center" justifyContent="center">
+            <Grid item sx={{display: {xs: "none", md: "flex"}}} ml={5} mt={5}>
                 <img src={lightbulb} width="150px"/>
             </Grid>
             <Grid item xs={5} mt={6}>
@@ -55,11 +54,11 @@ export default function About() {
                 </Typography>
             </Grid>
         </Grid>
-        <Grid container wrap="nowrap">
-            <Grid item sx={{display: { xs: 'none', md: 'flex' },}} ml={5}>
+        <Grid container alignItems="center" justifyContent="center">
+            <Grid item sx={{display: {xs: "none", md: "flex"}}} ml={5} mt={5}>
                 <img src={person} width="150px"/>
             </Grid>
-            <Grid item xs={0} md={1.3} mt={6}>
+            <Grid item xs={5} mt={6}>
                 <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
                     Who can participate?
                 </Typography>
