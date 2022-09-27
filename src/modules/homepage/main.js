@@ -12,11 +12,11 @@ export default function MainFile() {
     return (
     <div style={{overflowX: "hidden", overflowY: "hidden"}}>
         <ResponsiveAppBar />
-        <Box mb="50px"/>
+        <Box mb={10}/>
         <div style={{height: "500px"}}>
             <Head/>
         </div>
-        <Divider variant="middle" sx={{bgcolor: "#00B9FF", borderBottomWidth: 5, textAlign: "center",}}/>
+        <Divider variant="middle" sx={{bgcolor: "#00B9FF", mt: 20, mb:15, borderBottomWidth: 5, textAlign: "center",}}/>
         <Box mb={18}/>
         <About/>
         <Divider variant="middle" sx={{bgcolor: "#00B9FF", mt: 20, mb:15, borderBottomWidth: 5, textAlign: "center",}}/>

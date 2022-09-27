@@ -1,4 +1,4 @@
-import { Box, Divider, Grid, Typography } from "@mui/material";
+import { Box, Divider, Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
 import date from "../../images/date.png";
 import location from "../../images/location.png";
 import person from "../../images/Person.svg";
@@ -19,10 +19,10 @@ export default function About() {
         </Grid>
         <Box mb={10}/>
         <Grid container direction="row" alignItems="center" alignContent="center" justifyContent="center">
-            <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} xs={6}>
+            <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} md={6}>
                 <img src={date} width="300px"/>
             </Grid>
-            <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} xs={6} >
+            <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} md={6} >
                 <img src={location} width="300px"/>
             </Grid>
         </Grid>
@@ -43,13 +43,13 @@ export default function About() {
             <Grid item sx={{display: {xs: "none", md: "flex"}}} ml={5} mt={5}>
                 <img src={lightbulb} width="150px"/>
             </Grid>
-            <Grid item xs={5} mt={6}>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
+            <Grid item xs={12} md={5} mt={6}>
+                <Typography align="center" fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
                     What is build and pitch?
                 </Typography>
             </Grid>
-            <Grid item xs={5} mt={6}>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={20}>
+            <Grid item xs={12} md={5} mt={6}>
+                <Typography align="center" fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={20}>
                 6 hour event to create a business pitch and build a prototype(does not have to be code just showcase ur stuff) based on a mystery topic about tech  
                 </Typography>
             </Grid>
@@ -58,13 +58,13 @@ export default function About() {
             <Grid item sx={{display: {xs: "none", md: "flex"}}} ml={5} mt={5}>
                 <img src={person} width="150px"/>
             </Grid>
-            <Grid item xs={5} mt={6}>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
+            <Grid item xs={12} md={5} mt={6}>
+                <Typography align="center" fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
                     Who can participate?
                 </Typography>
             </Grid>
-            <Grid item xs={5} mt={7}>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={20}>
+            <Grid item xs={12} md={5} mt={7}>
+                <Typography align="center" fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={20}>
                     All UTD Students
                 </Typography>
             </Grid>
