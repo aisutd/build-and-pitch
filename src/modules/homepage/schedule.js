@@ -1,6 +1,9 @@
 import { Box, Divider, Grid, Typography } from "@mui/material";
+import React from "react";
 
 export default function Schedule() {
+    
+
     return (
         <>
             <Grid container alignItems="center" justifyContent="flex-start">

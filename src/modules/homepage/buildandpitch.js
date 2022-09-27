@@ -7,7 +7,7 @@ import "@fontsource/ibm-plex-mono";
 export default function BuildandPitch() {
     return (
         <Grid container wrap="nowrap" spacing={0} alignItems="center" justifyContent="center">
-            <Grid item mt="-50px" mb="20px">
+            <Grid item xs="none" mt="-50px" mb="20px">
                 <img src={neonOrange} width={250}/>
             </Grid>
             <Grid item textAlign="center" mt="100px">
@@ -26,7 +26,7 @@ export default function BuildandPitch() {
                     slogan? small description?
                 </Typography>
                 <div style={{marginTop: "30px"}}>
-                    <Button variant="contained" style={{backgroundImage: "linear-gradient(to right, #FF3C5F, #FF6000)", borderRadius: "40px", width: "200px", height: "60px"}}>
+                    <Button variant="contained" onClick={() => window.open('https://coda.io/form/Build-and-Pitch-2022_dF8Q6d7GrwA', '_blank')} style={{backgroundImage: "linear-gradient(to right, #FF3C5F, #FF6000)", borderRadius: "40px", width: "200px", height: "60px"}}>
                         <Typography textTransform="none" fontFamily="ibm plex mono" color="black" fontWeight="900" fontSize="20px">
                             Register Now
                         </Typography>
