@@ -1,9 +1,4 @@
-import { Box, Divider, Grid, Paper, Typography } from "@mui/material";
-import { width } from "@mui/system";
-import date from "../../images/date.png";
-import location from "../../images/location.png";
-import person from "../../images/Person.svg";
-import lightbulb from "../../images/LightBulb.svg";
+import { Box, Divider, Grid, Typography } from "@mui/material";
 
 export default function Faq() {
     return (

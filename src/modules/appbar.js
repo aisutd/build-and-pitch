@@ -8,23 +8,12 @@ import Button from '@mui/material/Button';
 import "@fontsource/fira-code";
 import aisLogo from  ".././images/Black.png";  
 
-const pages = ["About", "Schedule", "FAQ", "Contact Us"];
-
 const ResponsiveAppBar = () => {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = (value) => {
-    console.log(value);
-  };
-
   return (
     <AppBar sx={{backgroundColor: "black", width: "100vw"}} position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={aisLogo} width={150}/>
+          <img src={aisLogo} alt="AIS logo" width={150}/>
           <Typography
             variant="h6"
             sx={{

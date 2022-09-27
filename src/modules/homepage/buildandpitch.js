@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Grid, Typography } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import neonOrange from "../../images/NeonOrange.svg";
 import neonBlue from "../../images/NeonBlue.svg"
 import "@fontsource/fira-code";
@@ -9,7 +9,7 @@ export default function BuildandPitch() {
         <>
             <Grid container wrap="nowrap" spacing={0} alignItems="center" justifyContent="center">
                 <Grid item sx={{display: {xs: "none", md:"flex"}}} sm={0} md="none" mt="-70px" mb="20px">
-                    <img src={neonOrange} width={250}/>
+                    <img src={neonOrange} alt="neon orange opener" width={250}/>
                 </Grid>
                 <Grid item sx={{display: {xs: 12 }}} textAlign="center" mt="100px">
                     <Grid item>
@@ -31,7 +31,7 @@ export default function BuildandPitch() {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item>
+                    <Grid item sx={{display: {xs: "none", sm: "block"}}}>
                         <Typography fontFamily="ibm plex mono" fontSize={24} color="white">
                             slogan? small description?
                         </Typography>
@@ -47,7 +47,7 @@ export default function BuildandPitch() {
                     </Grid>
                 </Grid>
                 <Grid item sx={{display: {xs: "none", md: "flex"}}} xs={0} mb="-320px" ml="-30px">
-                    <img src={neonBlue} width={250}/>
+                    <img src={neonBlue}  alt= "neonBlueCloser" width={250}/>
                 </Grid>
             </Grid>
         </>

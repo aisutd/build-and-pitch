@@ -1,4 +1,4 @@
-import { Box, Divider, Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Divider, Grid, Typography } from "@mui/material";
 import date from "../../images/date.png";
 import location from "../../images/location.png";
 import person from "../../images/Person.svg";
@@ -20,10 +20,10 @@ export default function About() {
         <Box mb={10}/>
         <Grid container direction="row" alignItems="center" alignContent="center" justifyContent="center">
             <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} md={6}>
-                <img src={date} width="300px"/>
+                <img src={date} alt="Takes place in October 10th" width="300px"/>
             </Grid>
             <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} md={6} >
-                <img src={location} width="300px"/>
+                <img src={location} alt="At Science building" width="300px"/>
             </Grid>
         </Grid>
         <Grid
@@ -41,7 +41,7 @@ export default function About() {
         <Divider variant="middle" sx={{bgcolor: "#00B9FF", mt: 10,textAlign: "center", mb:12}}/>
         <Grid container alignItems="center" justifyContent="center">
             <Grid item sx={{display: {xs: "none", md: "flex"}}} ml={5} mt={5}>
-                <img src={lightbulb} width="150px"/>
+                <img src={lightbulb} alt="Lightbulb" width="150px"/>
             </Grid>
             <Grid item xs={12} md={5} mt={6}>
                 <Typography align="center" fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
@@ -56,7 +56,7 @@ export default function About() {
         </Grid>
         <Grid container alignItems="center" justifyContent="center">
             <Grid item sx={{display: {xs: "none", md: "flex"}}} ml={5} mt={5}>
-                <img src={person} width="150px"/>
+                <img src={person} alt="person logo" width="150px"/>
             </Grid>
             <Grid item xs={12} md={5} mt={6}>
                 <Typography align="center" fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={30}>

@@ -1,5 +1,5 @@
 import { Box, Divider } from '@mui/material';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ResponsiveAppBar from '../appbar';
 import About from './about';
 import BottomBar from './bottombar';

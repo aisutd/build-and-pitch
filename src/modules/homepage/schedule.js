@@ -123,7 +123,7 @@ export default function Schedule() {
                         </Grid>
                         <Grid item>
                             <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
-                                Dinner(Pizza)
+                                Dinner
                             </Typography>
                         </Grid>
                         <Grid item>
