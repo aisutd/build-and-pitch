@@ -113,7 +113,7 @@ export default function Schedule() {
                     <Grid container height="500px" direction="column" justifyContent="space-around">
                         <Grid item>
                             <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
-                                Freebirds
+                                Lunch
                             </Typography>
                         </Grid>
                         <Grid item>
