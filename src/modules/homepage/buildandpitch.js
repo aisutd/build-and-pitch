@@ -33,7 +33,7 @@ export default function BuildandPitch() {
                     </Grid>
                     <Grid item sx={{display: {xs: "none", sm: "block"}}}>
                         <Typography fontFamily="ibm plex mono" fontSize={24} color="white">
-                            slogan? small description?
+                            Hosted by AIS
                         </Typography>
                     </Grid>
                     <Grid item>
