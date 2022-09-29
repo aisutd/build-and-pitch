@@ -1,5 +1,5 @@
 import { Box, Divider, Grid, Typography } from "@mui/material";
-import date from "../../images/date.png";
+import date from "../../images/Time.svg";
 import location from "../../images/location.png";
 import person from "../../images/Person.svg";
 import lightbulb from "../../images/LightBulb.svg";
@@ -20,7 +20,7 @@ export default function About() {
         <Box mb={10}/>
         <Grid container direction="row" alignItems="center" alignContent="center" justifyContent="center">
             <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} md={6}>
-                <img src={date} alt="Takes place in October 10th" width="300px"/>
+                <img src={date} alt="Takes place in October 10th" width="400px"/>
             </Grid>
             <Grid item sx={{display: "flex", justifyContent: "center", alignItems: "center"}} md={6} >
                 <img src={location} alt="At Science building" width="300px"/>
