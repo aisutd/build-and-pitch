@@ -1,4 +1,5 @@
 import { Box, Divider, Grid, Typography } from "@mui/material";
+import Questions from "./questions";
 
 export default function Faq() {
     return (
@@ -14,10 +15,10 @@ export default function Faq() {
             </Grid>
         </Grid>
         <Box mb={10}/>
-        <Grid container spacing={20} alignItems="center" justifyContent="center">
-            <Grid item>
+        <Grid container alignItems="center" justifyContent="center">
+            {/* <Grid item>
                 <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Question 1
+                    What experience do I need?  
                 </Typography>
                 <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
                     Answer 1
@@ -44,7 +45,8 @@ export default function Faq() {
                 <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
                     Answer 4
                 </Typography>
-            </Grid>
+            </Grid> */}
+            <Questions/>
         </Grid>
         <Box height={300}/>
         <Grid container alignItems="center" justifyContent="center">
