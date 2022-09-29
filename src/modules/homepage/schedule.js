@@ -42,11 +42,6 @@ export default function Schedule() {
                                 11:30am-12pm
                             </Typography>
                         </Grid>
-                        <Grid item>
-                            <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
-                                12pm-6pm
-                            </Typography>
-                        </Grid>
                     </Grid>
                 </Grid>
                 <Grid item>
@@ -70,11 +65,6 @@ export default function Schedule() {
                                 Group forming
                             </Typography>
                         </Grid>
-                        <Grid item>
-                            <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
-                                Work on Pitch
-                            </Typography>
-                        </Grid>
                     </Grid>
                 </Grid>
                 <Divider orientation="vertical" sx={{bgcolor: "#00B9FF", height: 500, display: {xs: "none", md: "flex"}}}/>
@@ -84,6 +74,11 @@ export default function Schedule() {
                         Time
                     </Typography>
                     <Grid container height="500px" direction="column" justifyContent="space-around">
+                        <Grid item>
+                            <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
+                                12pm-6pm
+                            </Typography>
+                        </Grid>
                         <Grid item>
                             <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
                                 12:30pm
@@ -99,11 +94,7 @@ export default function Schedule() {
                                 7pm
                             </Typography>
                         </Grid>
-                        <Grid item>
-                            <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
-                                8pm-10pm
-                            </Typography>
-                        </Grid>
+                       
                     </Grid>
                 </Grid>
                 <Grid item mt={surface ? 0 : mobile && 5}>
@@ -111,6 +102,11 @@ export default function Schedule() {
                         Event
                     </Typography>
                     <Grid container height="500px" direction="column" justifyContent="space-around">
+                        <Grid item>
+                            <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
+                                Work on Pitch
+                            </Typography>
+                        </Grid>
                         <Grid item>
                             <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
                                 Lunch
@@ -124,11 +120,6 @@ export default function Schedule() {
                         <Grid item>
                             <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
                                 Dinner
-                            </Typography>
-                        </Grid>
-                        <Grid item>
-                            <Typography fontWeight={900} textTransform="none" fontFamily="fira code" color="white" fontSize={desktop ? 30 : tablet ? 30 : 17}>
-                                Movie
                             </Typography>
                         </Grid>
                     </Grid>
