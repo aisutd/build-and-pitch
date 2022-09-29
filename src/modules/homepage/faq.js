@@ -16,36 +16,6 @@ export default function Faq() {
         </Grid>
         <Box mb={10}/>
         <Grid container alignItems="center" justifyContent="center">
-            {/* <Grid item>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    What experience do I need?  
-                </Typography>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Answer 1
-                </Typography>
-                <Box mb={10}/>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Question 2
-                </Typography>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Answer 2
-                </Typography>
-            </Grid>
-            <Grid item>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Question 3
-                </Typography>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Answer 3
-                </Typography>
-                <Box mb={10}/>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Question 4
-                </Typography>
-                <Typography fontWeight={900}textTransform="none" fontFamily="fira code" color="white" fontSize={30}>
-                    Answer 4
-                </Typography>
-            </Grid> */}
             <Questions/>
         </Grid>
         <Box height={300}/>
